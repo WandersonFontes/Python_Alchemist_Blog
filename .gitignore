@@ -1,0 +1,9 @@
+
+#back_end/python/django-ninja/.venv/Lib/site-packages/asgiref/__init__.py
+back_end/python/django-ninja/.venv/
+back_end/python/flask/.venv/
+back_end/python/django-ninja/db.sqlite3
+back_end/python/django-ninja/json.txt
+back_end/python/django-ninja/api/blog/migrations/0001_initial.py
+back_end/python/django-ninja/api/jobs/migrations/0001_initial.py
+*.webp
