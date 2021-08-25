@@ -45,3 +45,12 @@ python manage.py test
 ```
 
 ## :man_technologist: Front-End
+1. Instale as dependências do projeto.
+```console
+cd Python_Alchemist_Blog\front_end\vue\spa
+npm install
+```
+2. Execute o server.
+```console
+npm run serve
+```
