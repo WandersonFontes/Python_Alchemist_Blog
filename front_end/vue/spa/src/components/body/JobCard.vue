@@ -1,7 +1,7 @@
 <template>
   <div style="margin-top:50px;">
     <div class="header">
-      <h1>Vagas para Pythonistas diretamente do <b-link href="https://pyjobs.com.br/" target="_blank"><img class="nav-logo" src="https://cdn.pluo.org/static/assets/img/pyjobs.com.br/logo.webp"></b-link></h1>
+      <h1>Vagas para Pessoas Desenvolvedoras do <b-link href="https://pluo.jobs/" target="_blank"><img alt="Pluo Jobs" class="nav-logo" src="../../assets/pluo-logo-full.png"></b-link></h1>
     </div>
     
     <vue-horizontal responsive>

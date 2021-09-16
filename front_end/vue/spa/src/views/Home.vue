@@ -2,7 +2,7 @@
   <div>
     <!-- <Slide></Slide> -->
     <div class='container'>
-        <PyJobCard></PyJobCard>
+        <JobCard></JobCard>
         <PostCard></PostCard>
     </div>
   </div>
@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import PyJobCard from '../components/body/PyJobCard'
+import JobCard from '../components/body/JobCard'
 //import Slide from '../components/header/Slide'
 import PostCard from '../components/body/PostCard'
 
@@ -18,7 +18,7 @@ import PostCard from '../components/body/PostCard'
 export default {
     name: 'Home',
     components:{
-        PyJobCard,
+        JobCard,
         PostCard,
         //Slide   
     },
