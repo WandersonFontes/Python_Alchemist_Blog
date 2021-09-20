@@ -1,9 +1,7 @@
 from flask import Flask, jsonify, request
 import json
 
-
 app = Flask(__name__)
-
 devs = [
     {
         'name':'Wanderson Fontes',
@@ -17,7 +15,7 @@ devs = [
     },
 ]
 
-@app.route('/devs', methods=['GET', 'POST', 'DELETE'])
+@app.route('/api/v1/devs', methods=['GET', 'POST', 'DELETE'])
 def infoDevs():
     if request.method == 'POST':
         try:
@@ -33,7 +31,7 @@ def infoDevs():
         pass        
     return jsonify(devs)
 
-@app.route('/devs/<int:id>/', methods=['GET', 'PUT', 'DELETE'])
+@app.route('/api/v1/devs/<int:id>/', methods=['GET', 'PUT', 'DELETE'])
 def infoDevID(id):
     if request.method == 'DELETE':
         # devs.pop(id)
