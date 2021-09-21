@@ -1,7 +1,7 @@
 <template>
   <div style="margin-top:50px;">
     <div class="header">
-      <h1>Vagas para Pessoas Desenvolvedoras do <b-link href="https://pluo.jobs/" target="_blank"><img alt="Pluo Jobs" class="nav-logo" src="../../assets/pluo-logo-full.png"></b-link></h1>
+      <!--<h1>Vagas para Pessoas Desenvolvedoras do <b-link href="https://pluo.jobs/" target="_blank"><img alt="Pluo Jobs" class="nav-logo" src="../../assets/pluo-logo-full.png"></b-link></h1>-->
     </div>
     
     <vue-horizontal responsive>
